@@ -1,0 +1,10 @@
+Robo que ajuda na cirurgia ou ajuda os pacientes (Handicap, próteses e exoesqueletos).
+O robô pode ser passivo quando ele serve apenas para segurar os instrumentos, impedir certos movimentos, 
+O robô pode ser ativo o robô faz o que foi determinado
+O robô pode ser teleguiado, ele é guiado a distancia como um simulador. 
+
+Projeto: como inventar um robô?
+Contexto medical : Problema, estatísticas, processo atual, como melhorar roboticamente, é pertinente ter um robô,...
+Aspectos técnicos: Gestos necessários, Espaço de trabalho, tamanho do robô, forma,...
+État de l'art: Sistemas existentes, quais sensores ele usa, como ele opera, ...
+Síntese e solução proposta COM SIMULAÇÃO no Matlab/Simulink
