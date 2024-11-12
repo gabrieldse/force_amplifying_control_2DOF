@@ -1,3 +1,5 @@
+close all; clc;
+
 % Import function
 addpath('./library');
 
@@ -16,4 +18,15 @@ kc = [0.5 0; 0 0.5];
 
 %% PLOT
 % example of plot of the model
-plot_prismatic_robot(0.39, 0.45,0.5,0.7,0.05)
+step = 1/20;
+duration = 5;
+t = linspace(0,duration,duration/step);
+for i=0:step:duration
+    cla;
+    x = i/10;
+    y = i/10;
+    plot_prismatic_robot(x, y,0.5,0.7,0.05)
+    %pause(0.1);
+    drawnow;
+
+end
