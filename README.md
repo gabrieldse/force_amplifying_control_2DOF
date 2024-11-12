@@ -30,7 +30,8 @@ Mathématiquement, cette relation est donnée par la relation 2.1. Les couples a
 $\left\{\begin{matrix}\tau_d = J^t w_d
  \\ \tau_u = J^t w_u
  \\ \tau_e = J^t w_e
-\end{matrix}\right$
+\end{matrix}\right.$
 
+https://latex.codecogs.com/svg.image?\left\{\begin{matrix}\tau_d=J^t&space;w_d\\\tau_u=J^t&space;w_u\\\tau_e=J^t&space;w_e\end{matrix}\right.
 Le correcteur utilisé compense les couples engendrés par l’action de la pesanteur.
 
