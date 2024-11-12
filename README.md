@@ -89,6 +89,9 @@ Ces hypothèses ont été essentielles pour simplifier l'analyse et appliquer de
 
 Sur le domain temporél le módele dymanique du robot peut être décrit comme:
 ```math
-\ddot{q} = M^{-1}(\tau_c-\tau_e-\tau_u - B* \dot{q})
+\ddot{q} = M^{-1}(\tau_c-\tau_e-\tau_u - B\dot{q})
 ```
-
+Sachant que l'environnement est módelisé par l'auteur comme:
+```math
+w_e = K_ex+K_c \dot{x}
+```
