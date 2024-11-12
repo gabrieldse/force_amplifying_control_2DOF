@@ -85,10 +85,10 @@ où \(B\) est une matrice de gains symétrique, et \(\tau_c\) est le nouveau vec
 Ces hypothèses ont été essentielles pour simplifier l'analyse et appliquer des techniques de contrôle basées sur la passivité dans le modèle linéarisé.
 ```math
 \tau = (Ms + B)^{-1} \dot{q}
-```math
+```
 
 Sur le domain temporél le módele dymanique du robot peut être décrit comme:
 ```math
 \ddot{q} = M^{-1}(\tau_c-\tau_e-\tau_u - B* \dot{q})
-```math
+```
 
