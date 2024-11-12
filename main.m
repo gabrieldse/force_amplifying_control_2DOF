@@ -6,6 +6,7 @@ addpath('./library');
 J = eye(2);
 
 M = [ 0.5 0.05; 0.05 0.5];
+Beta = 0.4*eye(2);
 B = [ 4 0; 0 2];
 
 % Robot parameters
