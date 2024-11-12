@@ -32,6 +32,6 @@ $\left\{\begin{matrix}\tau_d = J^t w_d
  \\ \tau_e = J^t w_e
 \end{matrix}\right.$
 
-https://latex.codecogs.com/svg.image?\left\{\begin{matrix}\tau_d=J^t&space;w_d\\\tau_u=J^t&space;w_u\\\tau_e=J^t&space;w_e\end{matrix}\right.
+![https://latex.codecogs.com/svg.image?\left\{\begin{matrix}\tau_d=J^t&space;w_d\\\tau_u=J^t&space;w_u\\\tau_e=J^t&space;w_e\end{matrix}\right.]
 Le correcteur utilisé compense les couples engendrés par l’action de la pesanteur.
 
