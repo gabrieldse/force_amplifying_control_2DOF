@@ -30,7 +30,7 @@ Mathématiquement, cette relation est donnée par la relation 2.1. Les couples a
 $\left\{\begin{matrix}\tau_d = J^t w_d
  \\ \tau_u = J^t w_u
  \\ \tau_e = J^t w_e
-\end{matrix}\right. \tag{2.1}$
+\end{matrix}\right$
 
 Le correcteur utilisé compense les couples engendrés par l’action de la pesanteur.
 
