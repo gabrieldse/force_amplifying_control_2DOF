@@ -9,12 +9,18 @@ M = [ 0.5 0.05; 0.05 0.5];
 B = [ 4 0; 0 2];
 
 % Robot parameters
-Kp = [2 0; 0 2];
-ki = [4 0; 0 4];
+kp = [2 0; 0 2]; % Gain correcteur Proportionnel
+ki = [4 0; 0 4]; % Gain correcteur Integrateur
 
 % Organe parameters
-ke = [10 0; 0 10];
-kc = [0.5 0; 0 0.5];
+ke = [10 0; 0 10]; % Matrice raideur de l'environemment
+kc = [0.5 0; 0 0.5]; % Matrice d'amortissement de l'environemment
+
+
+% Effort apliqué
+w0 = [0 ; 0]; % Effort initiale de l'utilisateur
+wu = [0.5; 0.7]; % Effort de l'utilisateur
+we = [0.5; 0.5]; % Effort de reaction de l'organe
 
 %% PLOT
 % example of plot of the model

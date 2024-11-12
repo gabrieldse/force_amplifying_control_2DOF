@@ -21,7 +21,7 @@ function plot_prismatic_robot(x, y,obs_x,obs_y,r)
     end_effector = [x, y]; % Second prismatic joint moves along y-axis to reach (x, y)
 
     % Plot the robot structure
-    figure;
+    %figure;
     hold on;
     plot([base(1), joint1(1)], [base(2), joint1(2)], 'b-o', 'LineWidth', 2); % x-axis prismatic joint
     plot([joint1(1), max_x], [base(2), joint1(2)], 'b-o', 'LineWidth', 2); % x-axis prismatic joint
