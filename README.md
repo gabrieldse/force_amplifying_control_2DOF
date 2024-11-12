@@ -16,8 +16,8 @@ stabilité d’un tel système est présentée ainsi que les résultats expérim
 
 ## Relation entre les Espaces Articulaire et Cartésien
 
-- **Couple (\( \tau \))** est associé au **mouvement angulaire (\( q \))** dans l'espace articulaire.
-- **Effort (\( w \))** est associé à la **position (\( X \))** dans l'espace cartésien.
+- **Couple** (\(\tau\)) est associé au **mouvement angulaire (\( q \))** dans l'espace articulaire.
+- **Effort** (\(w\)) est associé à la **position (\( X \))** dans l'espace cartésien.
 
 De meme, la transformation entre le couple(\( \tau \)) et l'effort (\( w \)) est réalisée par la 
 matrice Jacobienne (\( J \)), qui mappe les variables de l'espace articulaire (où le couple agit) vers 
@@ -28,11 +28,10 @@ Mathématiquement, cette relation est donnée par la relation 2.1. Les couples a
  des torseurs d’efforts par la relation 2.1 :
 \[
 \begin{cases}
-    \tau_u = J^t w_u \\
-    \tau_e = J^t w_e \\
-    \tau_d = J^t w_d 
-\end{cases}
-\tag{2.1}
+\tau_u = J^t w_u \\
+\tau_e = J^t w_e \\
+\tau_d = J^t w_d
+\end{cases} \tag{2.1}
 \]
 Le correcteur utilisé compense les couples engendrés par l’action de la pesanteur.
 
