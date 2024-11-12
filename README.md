@@ -29,10 +29,10 @@ Mathématiquement, cette relation est donnée par la relation 2.1. Les couples a
 
 $$
 \begin{cases}
-\tau_u = J^t w_u \\
-\tau_e = J^t w_e \\
-\tau_d = J^t w_d
-\end{cases} \tag{2.1}
+$\tau_u = J^t w_u \\$
+$\tau_e = J^t w_e \\$
+$\tau_d = J^t w_d$
+$\end{cases} \tag{2.1}$
 $$
 
 Le correcteur utilisé compense les couples engendrés par l’action de la pesanteur.
