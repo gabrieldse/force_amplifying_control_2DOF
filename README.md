@@ -27,7 +27,10 @@ Mathématiquement, cette relation est donnée par la relation 2.1. Les couples a
  l’utilisateur $\tau_u$ , l’organe $\tau_e$ et les couples désirés $\tau_d$ se déduisent
  des torseurs d’efforts par la relation 2.1 :
 
-$\tau_u = J^t w_u \\ \tau_e = J^t w_e \\ \tau_d = J^t w_d \\ \tag{2.1}$
+$$\tau_u = J^t w_u$$
+$$\tau_e = J^t w_e$$ 
+$$\tau_d = J^t w_d$$ 
+$\tag{2.1}$
 
 Le correcteur utilisé compense les couples engendrés par l’action de la pesanteur.
 
