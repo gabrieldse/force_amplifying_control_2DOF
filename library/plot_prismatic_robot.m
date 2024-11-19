@@ -1,22 +1,22 @@
-function plot_prismatic_robot(x, xo,r)
+function plot_prismatic_robot(xin, xo,r)
     % PLOT_PRISMATIC_ROBOT - Plot a 2D 2DOF prismatic robot with a 1m x 1m range.
     % Inputs:
     %   x - Horizontal position of the robot end-effector (0 <= x <= 1).
     %   y - Vertical position of the robot end-effector (0 <= y <= 1).
-    obs_x = xo(1,1);
-    obs_y = xo(2,1);
+    obs_x = xo(1);
+    obs_y = xo(2);
     
-    x = x(1,1);
-    y = x(2,1);
+    x = xin(1);
+    y = xin(2);
     
     % Define maximum reach limits
     max_x = 1; % 1 meter range in x
     max_y = 1; % 1 meter range in y
 
     % Validate inputs
-    if x < 0 || x > max_x || y < 0 || y > max_y
-        error('Input x and y should be within the range [0, 1] meters.');
-    end
+%     if x < 0 || x > max_x || y < 0 || y > max_y
+%         error('Input x and y should be within the range [0, 1] meters.');
+%     end
 
     % Define base of the robot at the origin
     base = [0, 0];
